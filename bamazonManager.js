@@ -50,7 +50,6 @@ function selectionMade(selected) {
 
             break;
         case 2:
-            // this.SelectionMade("View Products for Sale");
             listProducts();
             console.log("last Query: " + lastQuery);
             inquirer.prompt([{
@@ -95,7 +94,57 @@ function selectionMade(selected) {
             })
             break;
         case 3:
-
+            inquirer.prompt([
+                {
+                    "name":"product_name",
+                    "type":"input", 
+                    "message":"What is the product name?"
+                },
+                {
+                    "name":"department_name",
+                    "type":"input", 
+                    "message":"What is the department name?"
+                },
+                {
+                    "name":"price",
+                    "type":"input", 
+                    "message":"What is the price of the new product?"
+                },
+                {
+                    "name":"stock_qty",
+                    "type":"input", 
+                    "message":"How many of the new product should we stock?"
+                }
+            ]).then(function(answer){
+                if(!answer.product_name){
+                    console.log("You didn't enter a name");
+                }else if(!answer.department_name){
+                    console.log("You didn't enter a deparment Name");
+                }else if(!answer.price){   
+                    console.log("you didn't enter a price");
+                }else if(!answer.stock_qty){
+                    console.log("You didn't enter a Quantity");
+                }else{
+                    console.log("let's add this to the database");
+                
+                conn.connect(function (err) {
+                    if (err) {
+                        console.log(err);
+                    };
+                    conn.query(
+                        `
+                        INSERT INTO products (product_name, department_name, price, stock_qty)
+                        VALUES('${answer.product_name}', '${answer.department_name}', ${answer.price},  ${answer.stock_qty});
+                    `,
+                        function (error, data) {
+                            if (error) throw error;
+                            console.log(data);
+                        })
+                    conn.end();
+                })
+            }
+                
+            })
             break;
     }
 }
