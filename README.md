@@ -52,6 +52,6 @@ Adding a new product for that department in the manager app. This allows the dep
 
 ![Supervisor3](https://rudenik.github.io/assets/images/bamazon/bamazonSupervisor3.jpg)
 
-List with our new deparment in it.
+List with our new department in it.
 
 ![Supervisor4](https://rudenik.github.io/assets/images/bamazon/bamazonSupervisor4.jpg)
