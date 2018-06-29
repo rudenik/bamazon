@@ -17,6 +17,13 @@ The bamazon suite helps your customers, managers, and supervisor manages operati
 
 
 ![Customer1](https://rudenik.github.io/assets/images/bamazon/bamazoncustomer.jpg)
-Format: ![Alt Customer1](/assets/images/bamazon/bamazoncustomer.jpg)
-
-
+![Customer2](https://rudenik.github.io/assets/images/bamazon/bamazoncustomer2.jpg)
+![Manager0](https://rudenik.github.io/assets/images/bamazon/bamazonManager0.jpg)
+![Manager1](https://rudenik.github.io/assets/images/bamazon/bamazonManager1.jpg)
+![Manager2](https://rudenik.github.io/assets/images/bamazon/bamazonmanager2.jpg)
+![Manager3](https://rudenik.github.io/assets/images/bamazon/bamazonManager3.jpg)
+![Manager4](https://rudenik.github.io/assets/images/bamazon/bamazonManager4.jpg)
+![Supervisor1](https://rudenik.github.io/assets/images/bamazon/bamazonSupervisor1.jpg)
+![Supervisor2](https://rudenik.github.io/assets/images/bamazon/bamazonSupervisor2.jpg)
+![Supervisor3](https://rudenik.github.io/assets/images/bamazon/bamazonSupervisor3.jpg)
+![Supervisor4](https://rudenik.github.io/assets/images/bamazon/bamazonSupervisor4.jpg)
