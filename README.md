@@ -16,5 +16,5 @@ The bamazon suite helps your customers, managers, and supervisor manages operati
 ##Screenshots
 
 ![Customer1](https://rudenik.github.io/assets/images/bamazon/bamazoncustomer1.jpg)
-Format: ![Alt CustomerImage1]
+Format: ![Alt Customer1](https://rudenik.github.io/assets/images/bamazon/bamazoncustomer1.jpg)
 
