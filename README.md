@@ -25,9 +25,13 @@ View products for sale
 ![Manager1](https://rudenik.github.io/assets/images/bamazon/bamazonManager1.jpg)
 View low inventory products
 ![Manager2](https://rudenik.github.io/assets/images/bamazon/bamazonmanager2.jpg)
+
 Selecting to add inventory gives you the list of existing inventory.
+
 ![Manager3](https://rudenik.github.io/assets/images/bamazon/bamazonManager3.jpg)
+
 Steps to add new item and the products list after the addition
+
 ![Manager4](https://rudenik.github.io/assets/images/bamazon/bamazonManager4.jpg)
 View of sales by department
 ![Supervisor1](https://rudenik.github.io/assets/images/bamazon/bamazonSupervisor1.jpg)
