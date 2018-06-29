@@ -15,6 +15,6 @@ The Bamazon Supervisor app lets Supervisors
 
 ##Screenshots
 
-![Customer1](https://rudenik.github.io/assets/images/bamazon/bamazoncustomer1.jpg)
+![Customer1](/assets/images/bamazon/bamazoncustomer1.jpg)
 Format: ![Alt CustomerImage1]
 
