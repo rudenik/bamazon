@@ -49,7 +49,6 @@ function selectionMade(selected) {
                             tableToPrint.push([data[ele].item_id, data[ele].product_name, data[ele].department_ID, (data[ele].stock_qty || 0).toString(), (data[ele].price || 0).toString()]);
                         }
                         console.log(tableToPrint.toString());
-                        // console.log(data);
                     }
                     conn.end();
                 })

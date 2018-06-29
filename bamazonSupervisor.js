@@ -41,10 +41,8 @@ function selectionMade(answer){
                     console.log(error);
                     conn.end();
                 };
-                // console.log(data);
             for(ele in data){
                 var departmentCost = (data[ele].total_department_sales - data[ele].over_head_cost).toFixed(2);
-                // departmentCost.toPrecision(2);
                 tableToPrint.push([data[ele].department_ID, data[ele].department_name, (data[ele].over_head_cost || 0), (data[ele].total_department_sales || 0), (departmentCost || 0)])
 
             }
@@ -54,7 +52,6 @@ function selectionMade(answer){
 })
         break;
         case 1:
-        console.log("case 1");
         inquirer.prompt([{
             "name": "department_name",
             "type": "input",
